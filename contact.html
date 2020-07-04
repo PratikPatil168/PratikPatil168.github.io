@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<header>
+	<link rel="stylesheet" type="text/css" href="css/contact.css">	
+</header>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+
+
+
+ <h2>Contact Form</h2>
+ <div class="topnav">
+	<a class="active" href="index.html">Home</a>
+	<a href="resume.html">Resume</a>
+	<a href="contact.html">Contact</a>
+	<a href="certification.html">Certifications</a>
+	</div>
+	
+		<div style="background-color:black;color:white;padding:20px;class="container">
+		<form>
+			<div class="row">
+				<div class="col-25">
+					<label for="fname">First Name</label>
+				</div>
+				<div class="col-75">
+					<input type="text" id="fname" name="firstname" placeholder="Your name..">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-25">
+					<label for="lname">Last Name</label>
+				</div>
+				<div class="col-75">
+					<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-25">
+					<label for="Email">Email</label>
+				</div>
+				<div class="col-75">
+					<input type="text" id="Email" name="Email" placeholder="Your email">
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-25">
+					<label for="City">City</label>
+				</div>
+			<div class="col-75">
+				<select id="City" name="City">
+				<option value="Mumbai">Mumbai</option>
+				<option value="Pune">Pune</option>
+				<option value="Banglore">Banglore</option>
+				</select>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-25">
+				<label for="message">Message</label>
+			</div>
+		<div class="col-75">
+			<textarea id="message" name="Message" placeholder="Write something.." style="height:200px"></textarea>
+		</div>
+		</div>
+		<div class="row">
+			<input type="submit" value="Submit">
+		</div>
+		
+  </form>
+		<button onclick="window.location.href='index.html';" class="Button">Back to Home</button>
+</div>
+
+</body>
+<footer>
+	<hr>
+	<code>Copyright (c) 2020 Pratik Patil</code>
+	</footer>
+</html>
